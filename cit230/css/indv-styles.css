@@ -44,10 +44,11 @@
 	     width: 100%;
 	 }
 
-	 .imgg {
-        
-	   padding-left: auto;
-         padding-right: auto;
+	 .imgtwo {
+	     display: block;
+	     padding-left: auto;
+	     padding-right: auto;
+         float: left;
 	 }
 
 	 footer a {
