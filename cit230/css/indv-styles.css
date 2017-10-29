@@ -44,6 +44,14 @@
 	     width: 100%;
 	 }
 
+	 .img2 {
+	     display: block;
+	     margin: 0 auto;
+	     height: 250px;
+	     width: 70%;
+	     background-color: white;
+	 }
+
 	 footer a {
 	     color: white;
 
