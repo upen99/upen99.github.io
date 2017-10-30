@@ -100,7 +100,7 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	   p .pos-left  {
+	 p .pos-left {
 	     float: left;
 	     margin: 0 15px 0 0;
 	     height: 130px;
@@ -116,4 +116,20 @@
 	     align-items: center;
 	     margin: auto;
 	     text-align: center;
+	 }
+
+	 section {
+	     float: left;
+	     height: 130px;
+	     width: 25%
+	 }
+
+	 section a {
+	     color: white;
+	     width: 100%;
+	     float: right;
+	     background-color: #9D1061;
+	     text-align: center;
+	     text-decoration: none;
+
 	 }
