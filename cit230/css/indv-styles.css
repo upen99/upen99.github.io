@@ -100,8 +100,8 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	     {
-	     float: right;
+	   p .pos-left  {
+	     float: left;
 	     margin: 0 15px 0 0;
 	     height: 130px;
 	     width: 27%;
@@ -109,9 +109,9 @@
 	 }
 
 	 p.wrap {
-	     width: 50%;
+	     width: 85%;
 	     height: auto;
-	     border: 2px solid #CA0F7B;
+	     border: 3px solid #CA0F7B;
 	     word-wrap: break-word;
 	     align-items: center;
 	     padding: auto;
