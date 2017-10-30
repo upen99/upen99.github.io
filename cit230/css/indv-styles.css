@@ -83,17 +83,13 @@
 	 .dropdown:hover .dropdown-content {
 	     display: block;
 	 }
-    
-.flex-container-services {
-    display: -webkit-flex;
-    display: flex;
-    width: 1000px;
-    height: 1000px;
-    background-color: white;
-}
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
+
+	 p.wrap-pos-left {
+	    
+	 }
+
+	 p .pos-left {
+	     float: left;
+	     margin: 0 15px 0 0;
+         
+	 }
