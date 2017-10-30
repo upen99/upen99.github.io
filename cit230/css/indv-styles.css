@@ -30,9 +30,9 @@
 	 footer {
 	     left: 0;
 	     bottom: 0;
-	     height: 15px;
+	     height: 50px;
 	     padding: 20px;
-	     width: 100%;
+	     width: 50%;
 	     background-color: #9D1061;
 	     text-align: center;
 	 }
@@ -83,3 +83,17 @@
 	 .dropdown:hover .dropdown-content {
 	     display: block;
 	 }
+    
+.flex-container-services {
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+}
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
