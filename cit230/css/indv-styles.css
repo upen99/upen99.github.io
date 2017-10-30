@@ -89,13 +89,36 @@
 	     margin: 0 15px 0 0;
 	     height: 130px;
 	     width: 27%;
-         border: 2px solid #CA0F7B;
+	     border: 2px solid #CA0F7B;
+	 }
 
-	 }     
+	 p .pos-right {
+	     float: right;
+	     margin: 0 15px 0 0;
+	     height: 130px;
+	     width: 27%;
+	     border: 2px solid #CA0F7B;
+	 }
+
+	 p .pos-right-cost {
+	     float: right;
+	     margin: 0 15px 0 0;
+	     height: 90px;
+	     width: 27%;
+	     border: 2px solid #CA0F7B;
+	 }
+
+	     {
+	     float: right;
+	     margin: 0 15px 0 0;
+	     height: 130px;
+	     width: 27%;
+	     border: 2px solid #CA0F7B;
+	 }
 
 	 p.wrap {
 	     width: 100%;
-         height: 210px;
+	     height: auto;
 	     border: 2px solid #CA0F7B;
 	     word-wrap: break-word;
 	 }
