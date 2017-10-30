@@ -100,14 +100,6 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	 p .pos-right-cost {
-	     float: right;
-	     margin: 0 15px 0 0;
-	     height: 90px;
-	     width: 27%;
-	     border: 2px solid #CA0F7B;
-	 }
-
 	     {
 	     float: right;
 	     margin: 0 15px 0 0;
@@ -117,8 +109,12 @@
 	 }
 
 	 p.wrap {
-	     width: 100%;
+	     width: 50%;
 	     height: auto;
 	     border: 2px solid #CA0F7B;
 	     word-wrap: break-word;
+	     align-items: center;
+	     padding: auto;
+	     margin: auto;
+	     text-align: center;
 	 }
