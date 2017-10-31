@@ -32,6 +32,7 @@
 	     width: 100%;
 	     background-color: #9D1061;
 	     text-align: center;
+         float: left;
 	 }
 
 	 .img1 {
@@ -110,13 +111,11 @@
 	     font-family: monospace;
 	     font-size: 20px;
 	     color: #9D1061;
-	     width: 85%;
+	     width: 75%;
 	     height: auto;
 	     border: 3px solid #CA0F7B;
 	     word-wrap: break-word;
-	     align-items: center;
-	     margin: auto;
-	     text-align: center;
+         float: left;
 	 }
 
 	 section {
@@ -150,5 +149,5 @@
 	 aside {
 	     float: right;
 	     margin: 0 1.5%;
-	     width: 30%;
+	     width: 10%;
 	 }
