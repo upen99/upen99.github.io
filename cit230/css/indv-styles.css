@@ -40,6 +40,7 @@
 	     height: 300px;
 	     width: 100%;
 	 }
+
 	 .img2 {
 	     display: block;
 	     margin: 0 auto;
@@ -139,5 +140,5 @@
 	     background-color: white;
 	     background-repeat: no-repeat;
 	     padding: 12px 20px 12px 40px;
-         float: right;
+	     float: right;
 	 }
