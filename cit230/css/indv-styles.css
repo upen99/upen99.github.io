@@ -97,21 +97,20 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	 article .pos-left {
+	 /*article .pos-left {
 	     float: left;
 	     margin: 0 15px 0 0;
 	     height: 130px;
 	     width: 27%;
 	     border: 2px solid #CA0F7B;
-	 }
+	 */
 
-	
 
 	 article {
 	     font-family: monospace;
 	     font-size: 20px;
 	     color: #9D1061;
-         width: 85%;
+	     width: 85%;
 	     height: auto;
 	     border: 3px solid #CA0F7B;
 	     word-wrap: break-word;
@@ -146,4 +145,10 @@
 	     background-repeat: no-repeat;
 	     padding: 12px 20px 12px 40px;
 	     float: right;
+	 }
+
+	 aside {
+	     float: right;
+	     margin: 0 1.5%;
+	     width: 30%;
 	 }
