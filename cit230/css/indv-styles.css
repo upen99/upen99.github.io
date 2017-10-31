@@ -81,7 +81,7 @@
 	     display: block;
 	 }
 
-	 p .pos-left {
+	 article .pos-left {
 	     float: left;
 	     margin: 0 15px 0 0;
 	     height: 130px;
@@ -89,7 +89,7 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	 p .pos-right {
+	 article .pos-right {
 	     float: right;
 	     margin: 0 15px 0 0;
 	     height: 130px;
@@ -97,7 +97,7 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	 p .pos-left {
+	 article .pos-left {
 	     float: left;
 	     margin: 0 15px 0 0;
 	     height: 130px;
@@ -105,8 +105,13 @@
 	     border: 2px solid #CA0F7B;
 	 }
 
-	 p.wrap {
-	     width: 85%;
+	
+
+	 article {
+	     font-family: monospace;
+	     font-size: 20px;
+	     color: #9D1061;
+         width: 85%;
 	     height: auto;
 	     border: 3px solid #CA0F7B;
 	     word-wrap: break-word;
