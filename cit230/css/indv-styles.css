@@ -70,7 +70,7 @@ footer a {
     display: none;
     position: absolute;
     background-color: #9D1061;
-    min-width: 570px;
+    min-width: 100%;
 }
 
 .dropdown-content a {
