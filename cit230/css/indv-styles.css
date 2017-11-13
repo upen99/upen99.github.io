@@ -185,3 +185,9 @@ form {
     aside {height:20em;}
     footer {height:20em;}
 }
+@media (max-width: 960px) {
+  
+.dropdown { display: none; }
+  dropdown select { display: inline-block; }
+}
+
