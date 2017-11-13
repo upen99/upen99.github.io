@@ -1,7 +1,7 @@
 body {
     font-family: monospace;
     background-image: url(../../invd-website/Images/background.png);
-        background-size: cover;
+    background-size: cover;
 }
 
 a:hover {
@@ -118,9 +118,10 @@ article {
     color: #9D1061;
     width: 75%;
     height: auto;
-    border: 3px solid #CA0F7B;
     word-wrap: break-word;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 section {
@@ -140,7 +141,7 @@ section a {
 }
 
 input[type=text] {
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
     border: 4px solid #9D1061;
     border-radius: 4px;
@@ -156,13 +157,31 @@ aside {
     margin: 0 1.5%;
     width: 10%;
 }
+
 video {
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block
 }
+
 audio {
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block
+}
+
+form {
+    display: inline-block;
+    float: right;
+    width: 30%
+
+}
+@media print {
+    nav ol li {font-size:.05em;font-weight:bold;}
+    div#left-col {height:20em;}
+    main {height:20em;}
+    aside {height:20em;}
+    footer {height:20em;}
 }
