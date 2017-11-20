@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../css/indv-styles.css">
+    <title>Today's Deal</title>
+</head>
+
+<body>
+    <div>
+        <a href="vision.html">Vision</a>
+        <a href="our-product.html">Our Product</a>
+        <a href="Advertisement.html">Advertisement</a>
+        <a href="sale.html">Sale!</a>
+        <a href="cit230-links.html"> CIT230-links (Link)</a>
+        <form>
+            <input type="text" name="search" placeholder="Search your item here.......">
+        </form>
+    </div>
+    <article>
+        <h1>Today's Deal</h1>
+
+        <h3>Flat 40% off untill 3 days from now!</h3>
+
+        <button onclick="document.getElementById('time').innerHTML=Date()">Please see the current date  (this is the first FIRST demonstration of js to display a current date!!! )</button>
+        <p id="time"></p>
+
+
+        <p>See when is your lucky day!! this is the SECOND demonstration js to generate a random number!!</p>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML =
+                "your lucky day is at " + Math.floor(Math.random() * 3) + " days from today."
+
+        </script>
+    </article>
+
+    <p>this is the THIRD demonstration of js to go back space, please click on the back bottom</p>
+    <script>
+        function goBack() {
+            window.history.back()
+        }
+
+    </script>
+
+    <body>
+
+        <input type="button" value="Back" onclick="goBack()">
+
+
+        <footer>
+            <a href="">Learn more</a>
+            <a href="">Contact us</a>
+            <a href="">Copyright Info</a>
+        </footer>
+        <section>
+            <a href="vision.html">
+                <h4>Vision</h4>
+            </a>
+            <a href="how-it-works.html">Hot it works</a>
+            <a href="our-goal.html">Our Goad</a>
+            <a href="customer-satisfaction.html">Customer Satisfaction</a>
+        </section>
+        <section>
+            <a href="our-product.html">
+                <h4>Our Product</h4>
+            </a>
+            <a href="baking-process.html">Baking Process</a>
+            <a href="hot-deals.html">Hot Deals</a>
+            <a href="menu-and-pictures.html">Menu and Pictures</a>
+        </section>
+        <section>
+            <a href="Advertisement.html">
+                <h4>Advertisement</h4>
+            </a>
+            <a href="Feedbacks.html">Feedback</a>
+            <a href="Cost.html">Cost</a>
+            <a href="Social-media.html">Social Media</a>
+        </section>
+        <section>
+            <a href="sale.html">
+                <h4>sale!</h4>
+            </a>
+            <a href="today-deal.html">Today's Deal</a>
+            <a href="why-us.html">Why us?</a>
+            <a href="#">More</a>
+
+
+        </section>
+    </body>
+
+</html>

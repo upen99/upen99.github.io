@@ -191,3 +191,29 @@ form {
   dropdown select { display: inline-block; }
 }
 
+button {
+    font-family: monospace;
+    font-size: 20px;
+    color: #9D1061;
+    width: 75%;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+#panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #9D1061;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
