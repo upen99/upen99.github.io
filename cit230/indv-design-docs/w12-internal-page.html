@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../css/indv-styles.css">
+    <title>Why us?</title>
+    
+    <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+<body>
+    <a href="../index.html"> <img class="img-two" src="../../invd-website/Images/logo.png" alt="logo" style="float:left"></a>
+    <div>
+        <a href="vision.html">Vision</a>
+        <a href="our-product.html">Our Product</a>
+        <a href="Advertisement.html">Advertisement</a>
+        <a href="sale.html">Sale!</a>
+        <a href="../cit230-links.html"> CIT230-links (Link)</a>
+        <form>
+            <input type="text" name="search" placeholder="Search your item here.......">
+        </form>
+    </div>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(27.7172, 85.3240),
+                zoom: 5,
+
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+        }
+    </script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA9dgCP9kzhqO4i9vMin3CteJMWkkHwrM&callback=myMap"></script>
+    <br>
+    <br>
+    <!--AIzaSyAA9dgCP9kzhqO4i9vMin3CteJMWkkHwrM -->
+
+    <p>Drag the W3Schools image into the rectangle:</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="../../invd-website/Images/c1.jpg" alt="map" draggable="true" ondragstart="drag(event)" width="200" height="69">
+
+    <footer>
+        <a href="">Learn more</a>
+        <a href="">Contact us</a>
+        <a href="">Copyright Info</a>
+    </footer>
+    <section>
+        <a href="vision.html">
+            <h4>Vision</h4>
+        </a>
+        <a href="how-it-works.html">Hot it works</a>
+        <a href="our-goal.html">Our Goal</a>
+        <a href="customer-satisfaction.html">Customer Satisfaction</a>
+    </section>
+    <section>
+        <a href="our-product.html">
+            <h4>Our Product</h4>
+        </a>
+        <a href="baking-process.html">Baking Process</a>
+        <a href="hot-deals.html">Hot Deals</a>
+        <a href="menu-and-pictures.html">Menu and Pictures</a>
+    </section>
+    <section>
+        <a href="Advertisement.html">
+            <h4>Advertisement</h4>
+        </a>
+        <a href="Feedbacks.html">Feedback</a>
+        <a href="Cost.html">Cost</a>
+        <a href="Social-media.html">Social Media</a>
+    </section>
+    <section>
+        <a href="sale.html">
+            <h4>sale!</h4>
+        </a>
+        <a href="today-deal.html">Today's Deal</a>
+        <a href="why-us.html">Why us?</a>
+        <a href="#">More</a>
+
+
+    </section>
+</body>
+
+</html>
